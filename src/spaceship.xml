@@ -1,0 +1,18 @@
+<spaceship>
+    <room id="Bridge">
+        <description>You are now on the bridge</description>
+        <items>key</items>
+        <west>Mechanical Room</west>
+        <south>Kitchen</south>
+    </room>
+    <room id="Mechanical Room">
+	  <description>You are now in the Mechanical Room</description>
+        <items>tools</items>
+        <east>Bridge</east>
+    </room>
+    <room id="Kitchen">
+	  <description>You are on in the Kitchen</description>
+        <items>food</items>
+        <north>Bridge</north>
+    </room>
+</spaceship>
