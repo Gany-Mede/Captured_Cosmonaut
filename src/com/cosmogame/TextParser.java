@@ -27,8 +27,6 @@ public class TextParser {
             document.getDocumentElement().normalize();
             //Get the root of the document and print it
             Element root = document.getDocumentElement();
-            System.out.println(root.getNodeName());
-
             //Get all the rooms in the document
             NodeList rooms = document.getElementsByTagName("room");
 

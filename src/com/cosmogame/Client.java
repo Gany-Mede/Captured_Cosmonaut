@@ -6,6 +6,7 @@ public class Client {
         parser.parser();
         SpaceShip spaceShip =new SpaceShip();
         spaceShip.buildSpaceship();
-        spaceShip.testOutput();
+        spaceShip.start();
+
     }
 }
