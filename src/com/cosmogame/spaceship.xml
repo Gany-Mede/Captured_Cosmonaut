@@ -1,18 +1,18 @@
 <spaceship>
-    <room id="Bridge">
+    <room id="bridge">
         <description>This is where the Captain Vlad flies the ship to distant galaxies for exploration in the name of Mother Russia.</description>
         <items>key helmet</items>
-        <west>Mechanical Room</west>
-        <south>Kitchen</south>
+        <west>gym</west>
+        <south>kitchen</south>
     </room>
-    <room id="Mechanical Room">
-	  <description>The mechanical room is in bad shape. Doesn't look like the ship will make it anywhere far</description>
+    <room id="gym">
+	  <description>The gym still has some workout equipment</description>
         <items>tools</items>
-        <east>Bridge</east>
+        <east>bridge</east>
     </room>
-    <room id="Kitchen">
+    <room id="kitchen">
 	  <description>You can smell broccoli as soon as you walked in</description>
         <items>broccoli</items>
-        <north>Bridge</north>
+        <north>bridge</north>
     </room>
 </spaceship>
