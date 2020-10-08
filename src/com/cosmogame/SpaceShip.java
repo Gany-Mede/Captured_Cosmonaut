@@ -1,7 +1,4 @@
-import org.w3c.dom.*;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.*;
-import java.io.File;
+package com.cosmogame;
 
 class SpaceShip{
 
