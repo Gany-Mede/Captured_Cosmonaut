@@ -20,14 +20,15 @@ class SpaceShip{
     public void start() {
         //Start at the bridge
         currentRoom = "bridge";
-        System.out.println("Welcome to the game \n");
-        printInventory();
-        System.out.println("Your are now in this room: " + currentRoom);
-        printItems(bridgeItems);
+        System.out.println("Welcome to the game\n");
+        System.out.println("You can type 'get (item) to add an item to your inventory'");
+        System.out.println("or you can type 'go (direction)' to go to another room");
+        System.out.println("Or type 'quit' to quit the game.");
        askAction();
     }
     public void askAction(){
         do{
+            System.out.println();
             whereAmI();
             prompt();
             Scanner scanner = new Scanner(System.in);
@@ -36,8 +37,12 @@ class SpaceShip{
         }
         while(!input.equals("quit"));
     }
+
     public void evaluateInput(){
         String[] inputArray = input.split(" ");
+        if(inputArray[0].equals("quit")){
+            System.exit(0);
+        }
         if (inputArray.length < 2) {
             System.out.println("Wrong command");
         } else {
@@ -81,9 +86,8 @@ class SpaceShip{
         System.out.println("You current inventory: " + inventory);
     }
     public void prompt(){
-        System.out.println("You can type 'get (item) to add an item to your inventory'");
-        System.out.println("or you can type 'go (direction)' to go to another room");
-        System.out.println("Or type 'quit' to quit the game.");
+        System.out.println("Type 'get (item), 'go (direction)' or 'quit''");
+
     }
         public void go(String direction){
         String previousRoom = currentRoom;
@@ -106,6 +110,12 @@ class SpaceShip{
         whereAmI();
 
     }
+//    if (currentRoom.equals("gym") && inventory.contains("broccoli")){
+//        System.out.println("Vlad sees a hungry alien, it is ready to eat him. Thankfully, you got that broccoli and you are now able to distract the alien! ");
+//    }
+//    else{
+//        System.out.println("Vlad meets a hungry alien, it is looking at Vlad, Vlad got nothing to offer. It eats poor Vlad! Mother Russia will never be the same");
+//    }
     if (currentRoom == null){
         currentRoom = previousRoom;
         askAction();
@@ -113,27 +123,47 @@ class SpaceShip{
             System.out.println("the current room is: " + currentRoom);
         }
         public void get(String item){
-        inventory.add(item);
+
+
 
             switch (currentRoom){
                 case "bridge":
-                    bridgeItems.remove(item);
+                    if (bridgeItems.contains(item)){
+                        inventory.add(item);
+                        bridgeItems.remove(item);
+                    }
+                    else{
+                        System.out.println("Nothing to add");
+                    }
                     break;
                 case "gym":
-                    gymItems.remove(item);
+                    if (gymItems.contains(item)){
+                        inventory.add(item);
+                        gymItems.remove(item);
+                    }
+                    else{
+                        System.out.println("Nothing to add");
+                    }
                     break;
                 case "kitchen":
-                    kitchenItems.remove(item);
+                    if (kitchenItems.contains(item)){
+                        inventory.add(item);
+                        kitchenItems.remove(item);
+                    }
+                    else{
+                        System.out.println("~Cannot add what doesn't exist~");
+                    }
                     break;
         }
             printInventory();
     }
     public void printItems(List<String> items){
+        System.out.println("--------------------");
         System.out.println("You see the following items: ");
         for (var item : items){
             System.out.print(item + " ");
         }
-        System.out.println();
+        System.out.println("\n--------------------");
     }
 
 
