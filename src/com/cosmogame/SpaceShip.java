@@ -116,6 +116,7 @@ class SpaceShip{
 //    else{
 //        System.out.println("Vlad meets a hungry alien, it is looking at Vlad, Vlad got nothing to offer. It eats poor Vlad! Mother Russia will never be the same");
 //    }
+
     if (currentRoom == null){
         currentRoom = previousRoom;
         askAction();
