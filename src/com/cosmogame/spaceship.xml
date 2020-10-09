@@ -1,0 +1,18 @@
+<spaceship>
+    <room id="bridge">
+        <description>This is where the Captain Vlad flies the ship to distant galaxies for exploration in the name of Mother Russia.</description>
+        <items>key helmet</items>
+        <west>gym</west>
+        <south>kitchen</south>
+    </room>
+    <room id="gym">
+	  <description>The gym still has some workout equipment</description>
+        <items>tools</items>
+        <east>bridge</east>
+    </room>
+    <room id="kitchen">
+	  <description>You can smell broccoli as soon as you walked in</description>
+        <items>broccoli</items>
+        <north>bridge</north>
+    </room>
+</spaceship>
