@@ -21,16 +21,19 @@ public class Computer {
             //break back to room off of computer
         } else {
             //fake code that is printed to screen for "hack"
+            System.out.println("Security System Override in Progress...");
+            Thread.sleep(3000);
+            System.out.println();
             File f = new File("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Door Hack.txt");
             Scanner scanner = new Scanner(f);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 System.out.println(line);
-                Thread.sleep(350);
+                Thread.sleep(250);
             }
             //Path hack = Paths.get("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Door Hack.txt");
             //Files.lines(hack).forEach(System.out::println);
-            //System.out.println();
+            System.out.println();
             passcode();
         }
     }
@@ -41,7 +44,7 @@ public class Computer {
 
             //user input for keyword
             Scanner user_input = new Scanner(System.in);
-            System.out.println("Enter Today's Key Word: ");
+            System.out.println("To Override Security System, Enter Today's Key Word: ");
 
             //make lowercase
             String userInput = user_input.nextLine().trim().toLowerCase();
