@@ -1,3 +1,4 @@
+
 public class DoorSecurity {
     boolean isLocked = true;
     int attemptsDenied = 0;
