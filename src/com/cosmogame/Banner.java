@@ -10,10 +10,14 @@ public class Banner {
     public static void displayBanner() throws IOException {
         Path path = Paths.get("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Cosmonaut (Moscow).txt");
         Path path1 = Paths.get("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Cosmonaut.txt");
+        Path path2 = Paths.get("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Door Hack.txt");
+
 
         Files.lines(path).forEach(System.out::println);
         //System.out.println();
         Files.lines(path1).forEach(System.out::println);
+        System.out.println();
+        Files.lines(path2).forEach(System.out::println);
 
         //print Intro dialogue from file.  hard coded for Sprint 1
         System.out.println("You are Cosmonaut Vlad, engineer on the exploration-class starship, Vostok-32.\n" +

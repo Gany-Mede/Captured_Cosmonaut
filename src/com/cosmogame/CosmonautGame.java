@@ -1,8 +1,10 @@
 package com.cosmogame;
 
+import java.io.IOException;
+
 public class CosmonautGame {
 
-    public void setGame() {
+    public void setGame() throws IOException {
         //instantiate new player
         //Player player1 = new Player();
         //instantiate the game map (spaceship)
@@ -12,13 +14,13 @@ public class CosmonautGame {
         intro();
 
     }
-    public void intro() {
+    public void intro() throws IOException {
         //print instructions
         // go, get, use, shoot, hack, etc
         startGame();
     }
 
-    public void startGame() {
+    public void startGame() throws IOException {
         //print start dialogue from file, hard coded for Sprint 1
         System.out.println();
         System.out.println("Oof.... you groggily wake up and survey your surroundings. You're on the bridge;\n" +
@@ -29,6 +31,7 @@ public class CosmonautGame {
                 "That\\'s my way out.\\\" You notice something peculiar blinking in the hanger\n" +
                 "diagram: You are not alone...");
         //start player on bridge
+
     }
 
 

@@ -1,0 +1,29 @@
+public class DoorSecurity {
+    boolean isLocked = true;
+    int attemptsDenied = 0;
+    keyWord = false;
+
+    public void alarm() {
+      if attemptsDenied == 3 {
+        emergencyDestruct(15);}
+      else {
+        System.out.println("You have " + (3 - attemptsDenied) +
+        "attempts before Emergency Destruct Procedures are activated.")}}
+    public void unlock() {
+      while isLocked == true;
+        if user.access == denied {
+	  attemptsDenied ++;
+	  alarm();}}
+    public void overide() {
+      while attemptsDenied != 3 {
+        if keyTurned == true && keyWord == true {
+	  lock.unlock();}}
+    public void wordOfTheDay() {
+      Scanner input = new Scanner(System.in);
+      System.out.println("Enter Today's Key Word:")
+      Word dailyFile = parser.parse(new FileReader
+        ("/SovietSpaceProgram/Comrades/Vostok32/DailyKey.json");
+      JSONObject verify = (JSONObject) dailyFile;
+      keyWord = verify['shuttle']['date']['value'];
+      if input == keyWord {
+        keyWord = true;}
