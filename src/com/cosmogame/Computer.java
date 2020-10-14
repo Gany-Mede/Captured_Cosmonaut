@@ -2,6 +2,7 @@ package com.cosmogame;
 
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -10,13 +11,15 @@ public class Computer {
     //Computer security = new Computer();
 
 
-    public static void hackPrint() throws IOException, InterruptedException {
+    public static void hackPrint() throws InterruptedException, FileNotFoundException {
         //fake code that is printed to screen for "hack"
+            System.out.println("The spaceship went on lockdown. All the doors are now closed! \n");
+            System.out.println("Hack the system to escape!");
             System.out.println("Security System Override in Progress...");
             Thread.sleep(500);
             System.out.println();
 
-            File update = new File ("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/System Update.txt");
+            File update = new File ("./src/com/cosmogame/System Update.txt");
             Scanner scan = new Scanner(update);
             while (scan.hasNextLine()) {
                 String line1 = scan.nextLine();
@@ -25,7 +28,7 @@ public class Computer {
             }
             System.out.println();
 
-            File f = new File("/Users/nmicjime/Desktop/Captured_Cosmonaut/src/com/cosmogame/Door Hack.txt");
+            File f = new File("./src/com/cosmogame/Door Hack.txt");
             Scanner scanner = new Scanner(f);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();

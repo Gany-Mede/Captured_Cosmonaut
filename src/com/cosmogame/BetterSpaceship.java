@@ -1,5 +1,6 @@
 package com.cosmogame;
 
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class BetterSpaceship {
@@ -19,7 +20,7 @@ public class BetterSpaceship {
     //List of items used
     List<String> usedItems = new ArrayList<>();
 
-    public void start() {
+    public void start() throws FileNotFoundException, InterruptedException {
         System.out.println("Welcome to the game\n");
         System.out.println("You can type 'get (item) to add an item to your inventory'");
         System.out.println("or you can type 'go (direction)' to go to another room");
@@ -29,7 +30,7 @@ public class BetterSpaceship {
         initializeCurrentRoom(currentRoom);
         askAction();
     }
-    public void askAction(){
+    public void askAction() throws FileNotFoundException, InterruptedException {
         do{
             System.out.println();
             printInventory();
@@ -42,7 +43,7 @@ public class BetterSpaceship {
         while(!input.equals("quit"));
     }
 //This is where challenges are going to be  called.
-    public void evaluateChallenge(){
+    public void evaluateChallenge() throws FileNotFoundException, InterruptedException {
         String challenge = currentRoomInfo.get("challenge");
 
         switch(challenge){
@@ -50,9 +51,9 @@ public class BetterSpaceship {
                 //alienCombat();
             case "hacking":
                 if(usedItems.contains("key")){
-//                    Computer computer = new Computer();
-//                    computer.hackPrint();
+                    Computer.hackPrint();
                     usedItems.remove("key");
+                    askAction();
                 }
                 else{
                     System.out.println("You do not have the right permissions to use the computer! ");
@@ -60,7 +61,7 @@ public class BetterSpaceship {
 
         }
     }
-    public void evaluateInput(String input){
+    public void evaluateInput(String input) throws FileNotFoundException, InterruptedException {
         String[] inputArray = input.split(" ");
         if(inputArray[0].equals("quit")){
             System.exit(0);
@@ -81,7 +82,7 @@ public class BetterSpaceship {
             }
         }
     }
-    public void go(String direction){
+    public void go(String direction) throws FileNotFoundException, InterruptedException {
         if(!currentRoomInfo.containsKey(direction)){
             System.out.println("Wrong direction");
         }
