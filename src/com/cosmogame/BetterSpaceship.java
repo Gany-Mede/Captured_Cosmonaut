@@ -16,6 +16,8 @@ public class BetterSpaceship {
     String input;
     //List of picked up items
     List<String> pickedUp = new ArrayList<>();
+    //List of items used
+    List<String> usedItems = new ArrayList<>();
 
     public void start() {
         System.out.println("Welcome to the game\n");
@@ -47,8 +49,15 @@ public class BetterSpaceship {
             case "alien":
                 //alienCombat();
             case "hacking":
-//                Computer computer = new Computer();
-//                computer.hackPrint();
+                if(usedItems.contains("key")){
+//                    Computer computer = new Computer();
+//                    computer.hackPrint();
+                    usedItems.remove("key");
+                }
+                else{
+                    System.out.println("You do not have the right permissions to use the computer! ");
+                }
+
         }
     }
     public void evaluateInput(String input){
@@ -106,11 +115,10 @@ public class BetterSpaceship {
         }
             else if(inventory.contains(item) && currentRoomInfo.get("usable").equals(item)){
                 System.out.println("Good job, you used " + item);
+                usedItems.add(item);
                 inventory.remove(item);
             }
-
         }
-
     }
     public void initializeCurrentRoom(String room){
       for (int i =  0; i<spaceship.size(); i++){
