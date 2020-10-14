@@ -1,6 +1,7 @@
 package com.cosmogame;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class BetterSpaceship {
@@ -20,7 +21,7 @@ public class BetterSpaceship {
     //List of items used
     List<String> usedItems = new ArrayList<>();
 
-    public void start() throws FileNotFoundException, InterruptedException {
+    public void start() throws IOException, InterruptedException {
         System.out.println("Welcome to the game\n");
         System.out.println("You can type 'get (item) to add an item to your inventory'");
         System.out.println("or you can type 'go (direction)' to go to another room");
@@ -30,7 +31,7 @@ public class BetterSpaceship {
         initializeCurrentRoom(currentRoom);
         askAction();
     }
-    public void askAction() throws FileNotFoundException, InterruptedException {
+    public void askAction() throws IOException, InterruptedException {
         do{
             System.out.println();
             printInventory();
@@ -43,7 +44,7 @@ public class BetterSpaceship {
         while(!input.equals("quit"));
     }
 //This is where challenges are going to be  called.
-    public void evaluateChallenge() throws FileNotFoundException, InterruptedException {
+    public void evaluateChallenge() throws IOException, InterruptedException {
         String challenge = currentRoomInfo.get("challenge");
 
         switch(challenge){
@@ -61,7 +62,7 @@ public class BetterSpaceship {
 
         }
     }
-    public void evaluateInput(String input) throws FileNotFoundException, InterruptedException {
+    public void evaluateInput(String input) throws IOException, InterruptedException {
         String[] inputArray = input.split(" ");
         if(inputArray[0].equals("quit")){
             System.exit(0);
@@ -82,7 +83,7 @@ public class BetterSpaceship {
             }
         }
     }
-    public void go(String direction) throws FileNotFoundException, InterruptedException {
+    public void go(String direction) throws IOException, InterruptedException {
         if(!currentRoomInfo.containsKey(direction)){
             System.out.println("Wrong direction");
         }

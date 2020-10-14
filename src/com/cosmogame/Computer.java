@@ -4,6 +4,9 @@ package com.cosmogame;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Computer {
@@ -11,7 +14,7 @@ public class Computer {
     //Computer security = new Computer();
 
 
-    public static void hackPrint() throws InterruptedException, FileNotFoundException {
+    public static void hackPrint() throws InterruptedException, IOException {
         //fake code that is printed to screen for "hack"
             System.out.println("The spaceship went on lockdown. All the doors are now closed! \n");
             System.out.println("Hack the system to escape!");
@@ -42,7 +45,7 @@ public class Computer {
         }
 
 
-    public static void passcode() throws InterruptedException {
+    public static void passcode() throws InterruptedException, IOException {
         //3 attempts to get right key word.
         while (attempts < 3) {
 
@@ -69,7 +72,8 @@ public class Computer {
         }
 
     }
-    public static void emergencyDestruct() throws InterruptedException {
+
+    public static void emergencyDestruct() throws InterruptedException, IOException {
         System.out.println("Emergency Destruct Procedures activated. The Shuttle will self destruct in 5 seconds.");
         System.out.println("5");
         Thread.sleep(1000);
@@ -81,13 +85,10 @@ public class Computer {
         Thread.sleep(1000);
         System.out.println("1");
         Thread.sleep(1000);
+        Path path = Paths.get("./src/com/cosmogame/explosion.txt");
+        Files.lines(path).forEach(System.out::println);
         System.out.println("Game Over, Good Bye!");
         System.exit(0);
     }
 
-
-
-
-
-//end of class bracket
 }
