@@ -47,7 +47,8 @@ public class BetterSpaceship {
             case "alien":
                 //alienCombat();
             case "hacking":
-                //hackingChallenge();
+//                Computer computer = new Computer();
+//                computer.hackPrint();
         }
     }
     public void evaluateInput(String input){
@@ -150,8 +151,5 @@ public class BetterSpaceship {
         }
         System.out.println("\n----------------------------------------");
     }
-
-
-
 }
 
