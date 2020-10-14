@@ -4,13 +4,10 @@ import java.io.IOException;
 
 public class Client {
     public static void main(String[] args) throws IOException {
-
         Banner.displayBanner();
-        TextParser parser = new TextParser();
-        parser.parser();
-        SpaceShip spaceShip =new SpaceShip();
-        spaceShip.buildSpaceship();
-        spaceShip.start();
-
+        BetterParser parser = new BetterParser();
+        parser.betterParser();
+        BetterSpaceship ship = new BetterSpaceship();
+        ship.start();
     }
 }

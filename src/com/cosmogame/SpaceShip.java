@@ -110,12 +110,6 @@ class SpaceShip{
         whereAmI();
 
     }
-//    if (currentRoom.equals("gym") && inventory.contains("broccoli")){
-//        System.out.println("Vlad sees a hungry alien, it is ready to eat him. Thankfully, you got that broccoli and you are now able to distract the alien! ");
-//    }
-//    else{
-//        System.out.println("Vlad meets a hungry alien, it is looking at Vlad, Vlad got nothing to offer. It eats poor Vlad! Mother Russia will never be the same");
-//    }
 
     if (currentRoom == null){
         currentRoom = previousRoom;
