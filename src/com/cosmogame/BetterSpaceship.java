@@ -7,6 +7,7 @@ import java.util.*;
 public class BetterSpaceship {
     //All the rooms are in spaceship array list now
     static ArrayList<ArrayList> spaceship = BetterParser.rooms;
+    boolean matchPlayed = false;
 
     String currentRoom;
     //All the attributes of the current room go here
@@ -49,7 +50,21 @@ public class BetterSpaceship {
 
         switch(challenge){
             case "alien":
-                //alienCombat();
+                boolean gamePlayed = false;
+                if(!gamePlayed){
+                    Conflict c1 = new Conflict(); //Can pass in enemy and player name / stats and if player has a weapon
+                    c1.ConflictPrompt();
+                }
+                go("east");
+                break;
+            case "match":
+                while(!matchPlayed) {
+                    matchPlayed = true;
+                    GUIButtonGame guiGame = new GUIButtonGame();
+                    guiGame.start();
+                    go("south");
+                }
+                break;
             case "hacking":
                 if(usedItems.contains("key")){
                     Computer.hackPrint();

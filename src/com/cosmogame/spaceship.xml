@@ -6,9 +6,20 @@
         <west>gym</west>
         <south>kitchen</south>
         <east>server</east>
-        <north>none</north>
+        <north>game</north>
         <usable>none</usable>
         <challenge>none</challenge>
+    </room>
+    <room>
+        <name>game</name>
+        <description>This is where all the fun in space happens. You get to match colors!</description>
+        <items>cube</items>
+        <west>none</west>
+        <south>bridge</south>
+        <east>none</east>
+        <north>none</north>
+        <usable>none</usable>
+        <challenge>match</challenge>
     </room>
     <room>
         <name>gym</name>
