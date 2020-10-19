@@ -2,6 +2,7 @@ package com.cosmogame;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class BetterSpaceship {
@@ -36,7 +37,6 @@ public class BetterSpaceship {
         do{
             System.out.println();
             printInventory();
-            printRoomInfo();
             evaluateChallenge();
             Scanner scanner = new Scanner(System.in);
             input = scanner.nextLine();

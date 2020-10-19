@@ -29,7 +29,7 @@ public class BetterParser {
                 if(node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
                     insideRoom.put("name", element.getElementsByTagName("name").item(0).getTextContent());
-                    insideRoom.put("description", element.getElementsByTagName("description").item(0).getTextContent());
+                    insideRoom.put("description", element.getElementsByTagName("description").item(0).getTextContent().replaceAll("NL", "\n"));
                     insideRoom.put("items", element.getElementsByTagName("items").item(0).getTextContent());
                     insideRoom.put("north", element.getElementsByTagName("north").item(0).getTextContent());
                     insideRoom.put("east", element.getElementsByTagName("east").item(0).getTextContent());

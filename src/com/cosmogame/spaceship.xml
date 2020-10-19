@@ -1,7 +1,7 @@
 <spaceship>
     <room>
         <name>bridge</name>
-        <description>You are on the bridge of the Vostok-32. Cracked monitors litter the floor. Broken cables fall loosely from the ceiling, their ends sparking with ungrounded electrical currents. The emergency LEDs give the room a faint, pulsing red glow...aside from the monitor displaying the bright blip of an unknown lifeform.</description>
+        <description> NLYou are on the bridge of the Vostok-32.NLCracked monitors litter the floor.NLBroken cables fall loosely from the ceiling,NLtheir ends sparking with ungrounded electrical currents.NLThe emergency LEDs give the room a faint, pulsing red glow...NL...aside from the monitor displaying the bright blip of an unknown lifeform.</description>
         <items>key helmet</items>
         <west>gym</west>
         <south>kitchen</south>
@@ -12,7 +12,7 @@
     </room>
     <room>
         <name>game</name>
-        <description>This is where all the fun in space happens. You get to match colors!</description>
+        <description> NLThis is where all the fun in space happens.NLYou get to match colors!</description>
         <items>cube</items>
         <west>none</west>
         <south>bridge</south>
@@ -23,7 +23,7 @@
     </room>
     <room>
         <name>gym</name>
-        <description>You are in the ship's small gym. Most of the equipment remains securely fastened despite the destruction throughout the Vostok. A large poster hanging over the rack of dumbbells draws your eye to it: an image of Sputnik-1, the first artificial Earth satellite and a point of great pride for all of Russia.</description>
+        <description> NLYou are in the ship's small gym.NLMost of the equipment remains securely fastenedNLdespite the destruction throughout the Vostok.NLA large poster hanging over the rack of dumbbells draws your eye to it:NLan image of Sputnik-1, the first artificial Earth satellite andNLa point of great pride for all of Russia.</description>
         <items>tools</items>
         <east>bridge</east>
         <west>none</west>
@@ -34,7 +34,7 @@
     </room>
     <room>
         <name>kitchen</name>
-        <description>You are in the mess hall. It is an absolute disaster: bent metal and broken ceramics cover the dura-steel floors. Strangely, a plate of cooked broccoli seems to have survived the wreckage and sits unassumingly on the only upright table in the room.</description>
+        <description> NLYou are in the mess hall. It is an absolute disaster:NLbent metal and broken ceramics cover the dura-steel floors.NLStrangely, a plate of cooked broccoli seems to have survived the wreckageNLand sits unassumingly on the only upright table in the room.</description>
         <items>broccoli</items>
         <north>bridge</north>
         <south>none</south>
@@ -45,7 +45,7 @@
     </room>
     <room>
         <name>server</name>
-        <description>You are in the ships Onboard DataCenter(ODC). Emergency lights blink red and yellow on every access port. A lone screen flashes a command line interface with a small green underscore, ready for user input.</description>
+        <description> NLYou are in the ship's Onboard DataCenter(ODC).NLEmergency lights blink red and yellow on every access port.NLA lone screen flashes a command line interface with a small green underscore,NLready for user input.</description>
         <items>keyboard</items>
         <north>none</north>
         <south>none</south>

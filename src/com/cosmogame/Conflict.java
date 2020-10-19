@@ -134,7 +134,7 @@ public class Conflict {
 //            }
 
             if (enemyHP < 1) {
-                System.out.println("\nIn a last ditch effort, you are able to lure the injured alien into the airlock and release the outer door. \nIt tumbles, oozing green blood and terrible screeches follow it into the dark silence of deep space. You race to the shuttle, slam the emergency codes into the console, and engage the Faster Than Light drive to escape this awful nightmare.");
+                System.out.println("\nIn a last ditch effort, you are able to lure the injured alien\ninto the airlock and release the outer door. It tumbles out,\noozing green blood and terrible screeches follow it into the dark silence of deep space.\nYou race to the shuttle, slam the emergency codes into the console,\nand engage the Faster Than Light drive to escape this awful nightmare.");
                 System.exit(0);
             } else {
                 System.out.printf("\nThe %s has %d %% health remaining\n", enemy, enemyHP);
@@ -153,7 +153,7 @@ public class Conflict {
 
 
             if (playerHP < 1) {
-                System.out.printf("\nThe %s's four arms lift you into the air; your own arms pinned to your sides, helpless. It slowly brings your head to it's hungry, toothy maw. Your last moments are filled with pain and terror as you become a new delicacy for this terrible creature....\n\n****GAME OVER****\n\n", enemy);
+                System.out.printf("\nThe %s's four arms lift you into the air;\nyour own arms pinned to your sides, helpless.\nIt slowly brings your head to it's hungry, toothy maw.\nYour last moments are filled with pain and terror\nas you become a new delicacy for this terrible creature....\n\n****GAME OVER****\n\n", enemy);
                 System.exit(0);
             } else System.out.printf("\nThe %s now has %d %% health remaining\n", player, playerHP);
 
