@@ -1,8 +1,8 @@
 <spaceship>
     <room>
         <name>bridge</name>
-        <description>This is where the Captain Vlad flies the ship to distant galaxies for exploration in the name of Mother Russia.</description>
-        <items>key helmet</items>
+        <description>NLYou are on the bridge of the Vostok-32.NLCracked monitors litter the floor.NLBroken cables fall loosely from the ceiling,NLtheir ends sparking with ungrounded electrical currents.NLThe emergency LEDs give the room a faint, pulsing red glow...NL...aside from the monitor displaying the bright blip of an unknown lifeform.</description>
+        <items>key helmet crayons geymboy</items>
         <west>gym</west>
         <south>kitchen</south>
         <east>server</east>
@@ -12,40 +12,40 @@
     </room>
     <room>
         <name>game</name>
-        <description>This is where all the fun in space happens. You get to match colors!</description>
+        <description>NLThis is where all the fun in space happens.NLYou get to match colors!</description>
         <items>cube</items>
         <west>none</west>
         <south>bridge</south>
         <east>none</east>
         <north>none</north>
-        <usable>none</usable>
+        <usable>crayons</usable>
         <challenge>match</challenge>
     </room>
     <room>
         <name>gym</name>
-        <description>The gym still has some workout equipment. You see a poster with sputnik on it.</description>
+        <description>NLYou are in the ship's small gym.NLMost of the equipment remains securely fastenedNLdespite the destruction throughout the Vostok.NLA large poster hanging over the rack of dumbbells draws your eye to it:NLan image of Sputnik-1, the first artificial Earth satellite andNLa point of great pride for all of Russia.</description>
         <items>tools</items>
         <east>bridge</east>
         <west>none</west>
         <south>none</south>
         <north>none</north>
-        <usable>none</usable>
+        <usable>helmet</usable>
         <challenge>alien</challenge>
     </room>
     <room>
         <name>kitchen</name>
-        <description>You can smell broccoli as soon as you walked in</description>
+        <description>NLYou are in the mess hall. It is an absolute disaster:NLbent metal and broken ceramics cover the dura-steel floors.NLStrangely, a plate of cooked broccoli seems to have survived the wreckageNLand sits unassumingly on the only upright table in the room.</description>
         <items>broccoli</items>
         <north>bridge</north>
         <south>none</south>
         <east>none</east>
         <west>none</west>
-        <usable>none</usable>
-        <challenge>none</challenge>
+        <usable>geymboy</usable>
+        <challenge>spaceinvaders</challenge>
     </room>
     <room>
         <name>server</name>
-        <description>You see a server room </description>
+        <description>NLYou are in the ship's Onboard DataCenter(ODC).NLEmergency lights blink red and yellow on every access port.NLA lone screen flashes a command line interface with a small green underscore,NLready for user input.</description>
         <items>keyboard</items>
         <north>none</north>
         <south>none</south>

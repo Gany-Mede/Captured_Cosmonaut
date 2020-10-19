@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55c40ec8-29fd-4a30-80f0-14d5babd9ab9" name="Default Changelist" comment="game">
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/image/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/image/ImageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/listeners/GameEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/GameEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/models/Bomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/models/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/EnemyShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/models/Laser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/models/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/models/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/sound/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/SoundFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/ui/GameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/GameLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/ui/GameMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/GameMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvaders/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/Banner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/BetterParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/BetterSpaceship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/Conflict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/GUIButtonGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/constants/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/image/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/image/ImageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/listeners/GameEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/models/Bomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/models/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/models/Laser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/models/Spaceship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/models/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/sound/SoundFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/ui/GameLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/ui/GameMainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/SpaceInvaders/ui/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/images/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/images/laser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/images/spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/images/ufo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/spaceship.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Captured_Cosmonaut/com/cosmogame/spaceship.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/BetterParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/BetterParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/BetterSpaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/BetterSpaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/Conflict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Conflict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/GUIButtonGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/GUIButtonGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/constants/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/image/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/image/ImageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/ImageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/listeners/GameEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/models/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/models/EnemyShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/models/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/models/Spaceship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/models/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/sound/SoundFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/ui/GameLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/ui/GameMainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/SpaceInvaders/ui/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/images/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/images/laser.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/laser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/images/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/spaceship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/images/ufo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/ufo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cosmogame/spaceship.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cosmogame/spaceship.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ibS4KQ4QFhwwQJTWhrbd6gbCLc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/cosmogame" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/cosmogame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Captured_Cosmonaut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmogame.SpaceShip" />
+      <module name="Captured_Cosmonaut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.SpaceShip" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.SpaceShip" />
+        <item itemvalue="Application.SpaceShip" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55c40ec8-29fd-4a30-80f0-14d5babd9ab9" name="Default Changelist" comment="" />
+      <created>1602174605681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602174605681</updated>
+    </task>
+    <task id="LOCAL-00001" summary="parser">
+      <created>1602189379966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602189379966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="parser">
+      <created>1602190396283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602190396283</updated>
+    </task>
+    <task id="LOCAL-00003" summary="get item and go direction work&#10;&#10;only one prompt to go to another room or to get an item">
+      <created>1602196427125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602196427125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="loop on navigation">
+      <created>1602266696879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602266696879</updated>
+    </task>
+    <task id="LOCAL-00005" summary="loop on navigation">
+      <created>1602276185534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602276185534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="MVP">
+      <created>1602276238668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602276238668</updated>
+    </task>
+    <task id="LOCAL-00007" summary="XML Parser + the game with use">
+      <created>1602659527786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602659527786</updated>
+    </task>
+    <task id="LOCAL-00008" summary="XML Parser + the game with use">
+      <created>1602693337437</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602693337437</updated>
+    </task>
+    <task id="LOCAL-00009" summary="XML Parser + the game with use">
+      <created>1602694901956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602694901956</updated>
+    </task>
+    <task id="LOCAL-00010" summary="merged hacking game">
+      <created>1602695847896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602695847896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ascii art for explosion">
+      <created>1602698254034</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602698254034</updated>
+    </task>
+    <task id="LOCAL-00012" summary="catch exception">
+      <created>1602698460351</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602698460351</updated>
+    </task>
+    <task id="LOCAL-00013" summary="game">
+      <created>1603103080904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603103080904</updated>
+    </task>
+    <task id="LOCAL-00014" summary="game">
+      <created>1603103242491</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603103242491</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="parser" />
+    <MESSAGE value="get item and go direction work&#10;&#10;only one prompt to go to another room or to get an item" />
+    <MESSAGE value="loop on navigation" />
+    <MESSAGE value="MVP" />
+    <MESSAGE value="XML Parser + the game with use" />
+    <MESSAGE value="merged hacking game" />
+    <MESSAGE value="ascii art for explosion" />
+    <MESSAGE value="catch exception" />
+    <MESSAGE value="game" />
+    <option name="LAST_COMMIT_MESSAGE" value="game" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="122" key="#Project_Structure" timestamp="1603128743717">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="384" y="121" key="#Project_Structure/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602174685736" />
+    <state x="384" y="122" key="#Project_Structure/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603128743717" />
+    <state x="328" y="87" key="#Project_Structure/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128494485" />
+    <state x="360" y="199" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603129064957">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="360" y="199" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603129064957" />
+    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603128601399">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603128601399" />
+    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128488166" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602692984276">
+      <screen x="0" y="23" width="1792" height="1034" />
+    </state>
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602692984276" />
+    <state width="1750" height="288" key="GridCell.Tab.0.bottom" timestamp="1603129849682">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="222" key="GridCell.Tab.0.bottom/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602273115702" />
+    <state width="1750" height="305" key="GridCell.Tab.0.bottom/-63.-1057.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1602273519987" />
+    <state width="1301" height="305" key="GridCell.Tab.0.bottom/-63.-1057.1920.1057/0.23.1792.1036@-63.-1057.1920.1057" timestamp="1602523847636" />
+    <state width="1750" height="226" key="GridCell.Tab.0.bottom/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602880249731" />
+    <state width="1750" height="289" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1602824903973" />
+    <state width="1750" height="850" key="GridCell.Tab.0.bottom/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602703804233" />
+    <state width="1750" height="289" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1602827437485" />
+    <state width="1750" height="291" key="GridCell.Tab.0.bottom/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659412341" />
+    <state width="1750" height="243" key="GridCell.Tab.0.bottom/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602885337479" />
+    <state width="1750" height="166" key="GridCell.Tab.0.bottom/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602882441140" />
+    <state width="1750" height="289" key="GridCell.Tab.0.bottom/0.23.1792.1036/-361.-1417.2560.1417@0.23.1792.1036" timestamp="1602784576449" />
+    <state width="1750" height="42" key="GridCell.Tab.0.bottom/0.23.1792.1037/-361.-1417.2560.1417@0.23.1792.1037" timestamp="1602780262141" />
+    <state width="1750" height="233" key="GridCell.Tab.0.bottom/0.23.1792.1037@0.23.1792.1037" timestamp="1603054754755" />
+    <state width="1750" height="288" key="GridCell.Tab.0.bottom/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603129849682" />
+    <state width="1750" height="233" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1603086777640" />
+    <state width="1750" height="878" key="GridCell.Tab.0.bottom/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128302567" />
+    <state width="1750" height="288" key="GridCell.Tab.0.center" timestamp="1603129849681">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="222" key="GridCell.Tab.0.center/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602273115702" />
+    <state width="1750" height="305" key="GridCell.Tab.0.center/-63.-1057.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1602273519986" />
+    <state width="1301" height="305" key="GridCell.Tab.0.center/-63.-1057.1920.1057/0.23.1792.1036@-63.-1057.1920.1057" timestamp="1602523847635" />
+    <state width="1750" height="226" key="GridCell.Tab.0.center/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602880249730" />
+    <state width="1750" height="289" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1602824903973" />
+    <state width="1750" height="850" key="GridCell.Tab.0.center/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602703804232" />
+    <state width="1750" height="289" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1602827437485" />
+    <state width="1750" height="291" key="GridCell.Tab.0.center/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659412340" />
+    <state width="1750" height="243" key="GridCell.Tab.0.center/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602885337478" />
+    <state width="1750" height="166" key="GridCell.Tab.0.center/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602882441106" />
+    <state width="1750" height="289" key="GridCell.Tab.0.center/0.23.1792.1036/-361.-1417.2560.1417@0.23.1792.1036" timestamp="1602784576448" />
+    <state width="1750" height="42" key="GridCell.Tab.0.center/0.23.1792.1037/-361.-1417.2560.1417@0.23.1792.1037" timestamp="1602780262140" />
+    <state width="1750" height="233" key="GridCell.Tab.0.center/0.23.1792.1037@0.23.1792.1037" timestamp="1603054754755" />
+    <state width="1750" height="288" key="GridCell.Tab.0.center/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603129849681" />
+    <state width="1750" height="233" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1603086777640" />
+    <state width="1750" height="878" key="GridCell.Tab.0.center/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128302566" />
+    <state width="1750" height="288" key="GridCell.Tab.0.left" timestamp="1603129849681">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="222" key="GridCell.Tab.0.left/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602273115702" />
+    <state width="1750" height="305" key="GridCell.Tab.0.left/-63.-1057.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1602273519986" />
+    <state width="1301" height="305" key="GridCell.Tab.0.left/-63.-1057.1920.1057/0.23.1792.1036@-63.-1057.1920.1057" timestamp="1602523847635" />
+    <state width="1750" height="226" key="GridCell.Tab.0.left/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602880249730" />
+    <state width="1750" height="289" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1602824903972" />
+    <state width="1750" height="850" key="GridCell.Tab.0.left/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602703804232" />
+    <state width="1750" height="289" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1602827437484" />
+    <state width="1750" height="291" key="GridCell.Tab.0.left/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659412339" />
+    <state width="1750" height="243" key="GridCell.Tab.0.left/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602885337477" />
+    <state width="1750" height="166" key="GridCell.Tab.0.left/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602882441105" />
+    <state width="1750" height="289" key="GridCell.Tab.0.left/0.23.1792.1036/-361.-1417.2560.1417@0.23.1792.1036" timestamp="1602784576448" />
+    <state width="1750" height="42" key="GridCell.Tab.0.left/0.23.1792.1037/-361.-1417.2560.1417@0.23.1792.1037" timestamp="1602780262139" />
+    <state width="1750" height="233" key="GridCell.Tab.0.left/0.23.1792.1037@0.23.1792.1037" timestamp="1603054754754" />
+    <state width="1750" height="288" key="GridCell.Tab.0.left/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603129849681" />
+    <state width="1750" height="233" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1603086777639" />
+    <state width="1750" height="878" key="GridCell.Tab.0.left/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128302566" />
+    <state width="1750" height="288" key="GridCell.Tab.0.right" timestamp="1603129849681">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1750" height="222" key="GridCell.Tab.0.right/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602273115702" />
+    <state width="1750" height="305" key="GridCell.Tab.0.right/-63.-1057.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1602273519987" />
+    <state width="1301" height="305" key="GridCell.Tab.0.right/-63.-1057.1920.1057/0.23.1792.1036@-63.-1057.1920.1057" timestamp="1602523847636" />
+    <state width="1750" height="226" key="GridCell.Tab.0.right/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602880249730" />
+    <state width="1750" height="289" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1602824903973" />
+    <state width="1750" height="850" key="GridCell.Tab.0.right/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602703804233" />
+    <state width="1750" height="289" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1602827437485" />
+    <state width="1750" height="291" key="GridCell.Tab.0.right/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659412340" />
+    <state width="1750" height="243" key="GridCell.Tab.0.right/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602885337478" />
+    <state width="1750" height="166" key="GridCell.Tab.0.right/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602882441139" />
+    <state width="1750" height="289" key="GridCell.Tab.0.right/0.23.1792.1036/-361.-1417.2560.1417@0.23.1792.1036" timestamp="1602784576449" />
+    <state width="1750" height="42" key="GridCell.Tab.0.right/0.23.1792.1037/-361.-1417.2560.1417@0.23.1792.1037" timestamp="1602780262141" />
+    <state width="1750" height="233" key="GridCell.Tab.0.right/0.23.1792.1037@0.23.1792.1037" timestamp="1603054754755" />
+    <state width="1750" height="288" key="GridCell.Tab.0.right/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603129849681" />
+    <state width="1750" height="233" key="GridCell.Tab.0.right/0.23.1792.1041@0.23.1792.1041" timestamp="1603086777640" />
+    <state width="1750" height="878" key="GridCell.Tab.0.right/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603128302567" />
+    <state x="148" y="115" key="MergeDialog" timestamp="1602263319180">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="148" y="115" key="MergeDialog/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602263319180" />
+    <state x="471" y="151" key="SettingsEditor" timestamp="1603123732743">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="471" y="151" key="SettingsEditor/0.23.1792.1042/-361.-1417.2560.1417@0.23.1792.1042" timestamp="1603123732743" />
+    <state x="496" y="268" key="Vcs.Push.Dialog.v2" timestamp="1603103250741">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="496" y="265" key="Vcs.Push.Dialog.v2/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602266699219" />
+    <state x="496" y="266" key="Vcs.Push.Dialog.v2/-63.-1057.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1602276240598" />
+    <state x="496" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602196428740" />
+    <state x="496" y="265" key="Vcs.Push.Dialog.v2/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602698508381" />
+    <state x="496" y="265" key="Vcs.Push.Dialog.v2/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659533179" />
+    <state x="496" y="266" key="Vcs.Push.Dialog.v2/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602694903807" />
+    <state x="496" y="266" key="Vcs.Push.Dialog.v2/0.23.1792.1034/-361.-1417.2560.1417@0.23.1792.1034" timestamp="1602695860955" />
+    <state x="496" y="268" key="Vcs.Push.Dialog.v2/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603103250741" />
+    <state x="593" y="311" key="chooseDestDirectoryDialog" timestamp="1603127553656">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="593" y="311" key="chooseDestDirectoryDialog/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603127553656" />
+    <state x="694" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603123021870">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="694" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1030/-361.-1417.2560.1417@0.23.1792.1030" timestamp="1602189619729" />
+    <state x="694" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1033/-361.-1417.2560.1417@0.23.1792.1033" timestamp="1602695086258" />
+    <state x="694" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1041/-361.-1417.2560.1417@0.23.1792.1041" timestamp="1603123021870" />
+    <state x="579" y="258" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602263286405">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="579" y="258" key="git4idea.branch.GitSmartOperationDialog/-63.-1057.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1602263286405" />
+    <state x="579" y="257" key="git4idea.branch.GitSmartOperationDialog/0.23.1792.1028/-361.-1417.2560.1417@0.23.1792.1028" timestamp="1602190113619" />
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1602659219342">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1031/-361.-1417.2560.1417@0.23.1792.1031" timestamp="1602659219342" />
+  </component>
+</project>

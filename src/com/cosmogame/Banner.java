@@ -1,5 +1,3 @@
-package com.cosmogame;
-
 
 import java.io.*;
 import java.nio.file.Files;

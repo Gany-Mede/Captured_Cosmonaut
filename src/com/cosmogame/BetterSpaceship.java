@@ -1,8 +1,9 @@
-package com.cosmogame;
-
+import java.awt.EventQueue;
+import java.awt.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
+import java.util.List;
 
 public class BetterSpaceship {
     //All the rooms are in spaceship array list now
@@ -36,7 +37,6 @@ public class BetterSpaceship {
         do{
             System.out.println();
             printInventory();
-            printRoomInfo();
             evaluateChallenge();
             Scanner scanner = new Scanner(System.in);
             input = scanner.nextLine();
@@ -50,29 +50,50 @@ public class BetterSpaceship {
 
         switch(challenge){
             case "alien":
-                boolean gamePlayed = false;
-                if(!gamePlayed){
-                    Conflict c1 = new Conflict(); //Can pass in enemy and player name / stats and if player has a weapon
+                if(usedItems.contains("helmet")){
+                   Conflict c1 = new Conflict(); //Can pass in enemy and player name / stats and if player has a weapon
                     c1.ConflictPrompt();
+                    usedItems.remove("helmet");
+                    printRoomInfo();
+                    askAction();
                 }
-                go("east");
+                else{
+                    System.out.println("You can't fight an alien without a helmet");
+                }
                 break;
             case "match":
-                while(!matchPlayed) {
-                    matchPlayed = true;
+                if(usedItems.contains("crayons")) {
                     GUIButtonGame guiGame = new GUIButtonGame();
+                    usedItems.remove("crayons");
                     guiGame.start();
-                    go("south");
+                    printRoomInfo();
+                    askAction();
+                }
+                else{
+                    System.out.println("You need a crayons to play here!");
                 }
                 break;
             case "hacking":
                 if(usedItems.contains("key")){
                     Computer.hackPrint();
                     usedItems.remove("key");
+                    printRoomInfo();
                     askAction();
                 }
                 else{
                     System.out.println("You do not have the right permissions to use the computer! ");
+                }
+                break;
+            case "spaceinvaders":
+                if(usedItems.contains("geymboy")){
+                    EventQueue.invokeLater( () -> {
+                        new GameMainFrame();
+                    });
+                    printRoomInfo();
+                   // askAction();
+                }
+                else{
+                    System.out.println("You need geymboy to play here");
                 }
 
         }

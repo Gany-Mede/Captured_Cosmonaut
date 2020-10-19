@@ -1,4 +1,4 @@
-package com.cosmogame;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -105,7 +105,7 @@ public class GUIButtonGame {
     public void guiBuild() {
 
         frame.setSize(400, 400);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         JPanel panelLeft = new JPanel();
         JPanel panelRight = new JPanel();

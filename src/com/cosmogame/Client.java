@@ -1,4 +1,3 @@
-package com.cosmogame;
 
 import java.io.IOException;
 
@@ -15,5 +14,4 @@ public class Client {
             System.out.println(e.toString());
         }
     }
-
 }
